@@ -1,0 +1,106 @@
+<style>
+
+/* RIGHT PORTLET STYLES */
+#portal-column-two {
+  position: static;
+  left: 0;
+  float: right;
+  margin: 0 0 15px 15px;
+  width: 200px;
+}
+
+#content dd {
+  margin: 0; !important;
+}
+
+dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
+  padding: 8px;
+}
+
+#portal-column-two {
+  position: static;
+  left: 0;
+  float: right;
+  margin: 0 0 15px 15px;
+  width: 200px;
+  border: 1px solid rgba(1, 119, 80, .5);
+  border-right: 0px;
+  border-radius: 3px;
+  background-color: rgba(238, 238, 238, .7);
+}
+
+dt.portletHeader {
+  border:0px !important;
+  border-radius: 0px !important;
+}
+
+dl.portlet a:link {
+  color: #444 !important;
+  border-bottom: 0.1em solid #ccc;
+}
+
+dl.portlet a:visited {
+  color: #444 !important;
+  border-bottom: 0.1em solid #ccc;
+}
+
+
+dl.portlet a:hover {
+  color: #fff !important;
+  border-bottom: 0.1em solid #ccc;
+}
+
+#content dt {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+/* Cloud Login Button */
+.sign-in-cloud {
+  background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #017750;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-size: 37px 20px;
+  padding-left: 40px;
+  margin: 2px;
+  color: #FFF;
+  border-radius: 5px;
+  border: 1px solid #040A08;
+  font-weight: bold;
+}
+
+.sign-in-cloud:hover {
+      background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #05573C;
+      background-position: 0px;
+      background-repeat: no-repeat;
+      background-size: 37px 20px;
+      padding-left: 40px;
+      color: #fff;
+      border-radius: 5px;
+      border: 1px solid #040A08;
+  }
+
+
+/* PSEUDO FOOTER STYLES */
+.pseudoColor {
+    color: #42C0FB;
+    padding-right: 3px;
+}
+
+.row.pseudoDivide [class*='col-']:not(:last-child):after {
+  background: #42C0FB;
+  width: 2px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 14px;
+}
+
+.col-md-4 {
+  text-align: center;
+}
