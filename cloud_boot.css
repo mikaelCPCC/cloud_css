@@ -101,6 +101,8 @@ dl.portlet a:hover {
   min-height: 14px;
 }
 
-.col-md-4 {
+.pseudoCol-md-4 {
   text-align: center;
+  width: 300px;
 }
+</style>
