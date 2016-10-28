@@ -84,6 +84,10 @@ dl.portlet a:hover {
 
 
 /* PSEUDO FOOTER STYLES */
+.pseudoContainer{
+  width: 710px;
+}
+
 .pseudoColor {
     color: #42C0FB;
     padding-right: 3px;
@@ -103,10 +107,7 @@ dl.portlet a:hover {
 
 .pseudoCol-md-4 {
   text-align: center;
-  width: 300px;
 }
-<<<<<<< HEAD
+
 </style>
-=======
-</style>
->>>>>>> origin/master
+
