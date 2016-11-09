@@ -58,7 +58,7 @@ dl.portlet a:hover {
 }
 
 /* Cloud Login Button */
-.sign-in-cloud {
+#content .sign-in-cloud {
   background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #017750;
   background-position: 0px;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@ dl.portlet a:hover {
   font-weight: bold;
 }
 
-.sign-in-cloud:hover {
+#content .sign-in-cloud:hover {
       background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #05573C;
       background-position: 0px;
       background-repeat: no-repeat;
