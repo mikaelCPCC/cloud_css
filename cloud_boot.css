@@ -5,8 +5,8 @@
   position: static;
   left: 0;
   float: right;
-  margin: 0 0 15px 15px;
-  width: 200px;
+  margin: 0 0 0.938em 0.938em;
+  width: 0.075em;
 }
 
 #content dd {
@@ -14,18 +14,18 @@
 }
 
 dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
-  padding: 8px;
+  padding: 0.040em;
 }
 
 #portal-column-two {
   position: static;
   left: 0;
   float: right;
-  margin: 0 0 15px 15px;
+  margin: 0 0 0.075emx 0.075em;
   width: 200px;
-  border: 1px solid rgba(1, 119, 80, .5);
+  border: 0.005em solid rgba(1, 119, 80, .5);
   border-right: 0px;
-  border-radius: 3px;
+  border-radius: 0.015em;
   background-color: rgba(238, 238, 238, .7);
 }
 
@@ -36,18 +36,18 @@ dt.portletHeader {
 
 dl.portlet a:link {
   color: #444 !important;
-  border-bottom: 0.1em solid #ccc;
+  border-bottom: 0.1em solid rgb(204, 204, 204);
 }
 
 dl.portlet a:visited {
   color: #444 !important;
-  border-bottom: 0.1em solid #ccc;
+  border-bottom: 0.1em solid rgb(204, 204, 204);
 }
 
 
 dl.portlet a:hover {
   color: #fff !important;
-  border-bottom: 0.1em solid #ccc;
+  border-bottom: 0.1em solid rgb(204, 204, 204);
 }
 
 #content dt {
@@ -58,8 +58,8 @@ dl.portlet a:hover {
 }
 
 /* Cloud Login Button */
-.sign-in-cloud {
-  background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #017750;
+#content .sign-in-cloud {
+  background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') rgb(1,119,80);
   background-position: 0px;
   background-repeat: no-repeat;
   background-size: 37px 20px;
@@ -67,47 +67,37 @@ dl.portlet a:hover {
   margin: 2px;
   color: #FFF;
   border-radius: 5px;
-  border: 1px solid #040A08;
+  border: 1px solid rgb(4, 10, 8);
   font-weight: bold;
 }
 
-.sign-in-cloud:hover {
-      background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #05573C;
+#content .sign-in-cloud:hover {
+      background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') rgb(1,119,80);
       background-position: 0px;
       background-repeat: no-repeat;
       background-size: 37px 20px;
       padding-left: 40px;
       color: #fff;
       border-radius: 5px;
-      border: 1px solid #040A08;
+      border: 1px solid rgb(4,10,8);
   }
 
 
 /* PSEUDO FOOTER STYLES */
-.pseudoContainer{
+<style>
+.pseudoContainer {
   width: 710px;
+  border-radius: 2px;
+}
+
+.pseudoColStyle {
+  border: 1px solid rgb(66,192,251);
+  background-color: rgba(238, 238, 238, 0.3);
 }
 
 .pseudoColor {
-    color: #42C0FB;
+    color: rgb(66,192,251);
     padding-right: 3px;
 }
 
-.row.pseudoDivide [class*='col-']:not(:last-child):after {
-  background: #42C0FB;
-  width: 2px;
-  content: "";
-  display:block;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  right: 0;
-  min-height: 14px;
-}
-
-.pseudoCol-md-4 {
-  text-align: center;
-}
-
 </style>
-

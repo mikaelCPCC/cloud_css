@@ -24,119 +24,106 @@
 
 <style>
 
-
 /* RIGHT PORTLET STYLES */
 #portal-column-two {
-    position: static;
-    left: 0;
-    float: right;
-    margin: 0 0 15px 15px;
-    width: 200px;
+  position: static;
+  left: 0;
+  float: right;
+  margin: 0 0 0.938em 0.938em;
+  width: 0.075em;
 }
 
 #content dd {
-margin: 0; !important;
+  margin: 0; !important;
 }
 
 dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
-    padding: 8px;
-
+  padding: 0.040em;
 }
 
-
 #portal-column-two {
-    position: static;
-    left: 0;
-    float: right;
-    margin: 0 0 15px 15px;
-    width: 200px;
-
-border: 1px solid rgba(1, 119, 80, .5);
-border-right: 0px;
-border-radius: 3px;
-background-color: rgba(238, 238, 238, .7);
+  position: static;
+  left: 0;
+  float: right;
+  margin: 0 0 0.075emx 0.075em;
+  width: 200px;
+  border: 0.005em solid rgba(1, 119, 80, .5);
+  border-right: 0px;
+  border-radius: 0.015em;
+  background-color: rgba(238, 238, 238, .7);
 }
 
 dt.portletHeader {
-border:0px !important;
-border-radius: 0px !important;
+  border:0px !important;
+  border-radius: 0px !important;
 }
 
 dl.portlet a:link {
-color: #444 !important;
-border-bottom: 0.1em solid #ccc;
+  color: #444 !important;
+  border-bottom: 0.1em solid rgb(204, 204, 204);
 }
 
 dl.portlet a:visited {
-color: #444 !important;
-border-bottom: 0.1em solid #ccc;
+  color: #444 !important;
+  border-bottom: 0.1em solid rgb(204, 204, 204);
 }
 
 
 dl.portlet a:hover {
-color: #fff !important;
-border-bottom: 0.1em solid #ccc;
+  color: #fff !important;
+  border-bottom: 0.1em solid rgb(204, 204, 204);
 }
 
 #content dt {
-    font-weight: bold;
-    margin-bottom: 0;
-    margin-right: 0;
-    text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-right: 0;
+  text-align: center;
 }
 
 /* Cloud Login Button */
-  .sign-in-cloud {
-    background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #017750;
-    background-position: 0px;
-    background-repeat: no-repeat;
-    background-size: 37px 20px;
-    padding-left: 40px;
-    margin: 2px;
-    color: #FFF;
-    border-radius: 5px;
-    border: 1px solid #040A08;
-    font-weight: bold;
-  }
-  .sign-in-cloud:hover {
-    background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #05573C;
-    background-position: 0px;
-    background-repeat: no-repeat;
-    background-size: 37px 20px;
-    padding-left: 40px;
-    color: #fff;
-    border-radius: 5px;
-    border: 1px solid #040A08;
+#content .sign-in-cloud {
+  background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') rgb(1,119,80);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-size: 37px 20px;
+  padding-left: 40px;
+  margin: 2px;
+  color: #FFF;
+  border-radius: 5px;
+  border: 1px solid rgb(4, 10, 8);
+  font-weight: bold;
+}
+
+#content .sign-in-cloud:hover {
+      background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') rgb(1,119,80);
+      background-position: 0px;
+      background-repeat: no-repeat;
+      background-size: 37px 20px;
+      padding-left: 40px;
+      color: #fff;
+      border-radius: 5px;
+      border: 1px solid rgb(4,10,8);
   }
 
 
 /* PSEUDO FOOTER STYLES */
-
-.pseudoContainer{
+<style>
+.pseudoContainer {
   width: 710px;
+  border-radius: 2px;
+}
+
+.pseudoColStyle {
+  border: 1px solid rgb(66,192,251);
+  background-color: rgba(238, 238, 238, 0.3);
 }
 
 .pseudoColor {
-    color: #42C0FB;
+    color: rgb(66,192,251);
     padding-right: 3px;
 }
 
-.row.pseudoDivide [class*='col-']:not(:last-child):after {
-  background: #42C0FB;
-  width: 2px;
-  content: "";
-  display:block;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  right: 0;
-  min-height: 14px;
-  width: 930px;
-}
-
-.pseudoCol-md-4 {
-  text-align: center;
-}
 </style>
 
 <br>
@@ -146,22 +133,32 @@ border-bottom: 0.1em solid #ccc;
 <br>
 <hr>
 <br>
-<div class="pseudoContainer">
-    <div class="row pseudoDivide">
-        <div class="pseudoCol-md-4"><a href="http://webstaging.cpcc.edu/its/helpdesk"><i class="fa fa-link pseudoColor" aria-hidden="true"></i>ITS Help Desk Web Site</a></div>
-        <div class="pseudoCol-md-4"><a href="mailto:helpdesk@cpcc.edu"><i class="fa fa-envelope pseudoColor" aria-hidden="true"></i>
-helpdesk@cpcc.edu</a></div>
-        <div class="pseudoCol-md-4"><a href="its/helpdesk/chat-support"><i class="fa fa-comments pseudoColor" aria-hidden="true"></i>
-Live Chat Support </a></div>
+<div class="pseudoContainer text-left">
+
+  <div class="row">
+    <div class="col-lg-12 pseudoColStyle">
+      <div class="col-md-4">
+        <ul class="nav  nav-stacked" style="list-style: none;">
+          <li><a href="http://webstaging.cpcc.edu/its/helpdesk"><i class="fa fa-link pseudoColor" aria-hidden="true"></i>ITS Help Desk Web Site</a></li>
+          <li><a href="tel:+17043305000"><i class="fa fa-phone-square pseudoColor" aria-hidden="true"></i>704.330.5000</a> - phone</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="nav nav-stacked" style="list-style: none;>
+          <li><a href="mailto:helpdesk@cpcc.edu"><i class="fa fa-envelope pseudoColor" aria-hidden="true"></i>helpdesk@cpcc.edu</li>
+          <li><a href="tel:+17043305475"><i class="fa fa-fax pseudoColor" aria-hidden="true"></i>704.330.5475</a> - fax</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="nav nav-stacked" style="list-style: none;>
+          <li><a href="its/helpdesk/chat-support"><i class="fa fa-comments pseudoColor" aria-hidden="true"></i>Live Chat Support </a></li>          
+        </ul>
+      </div>
+   </div>
+   </div>
+   </div>
     </div>
-    <div class="row pseudoDivide">
-        <div class="pseudoCol-md-4"><a href="tel:+17043305000"><i class="fa fa-phone-square pseudoColor" aria-hidden="true"></i>
-704.330.5000</a> - phone</div>
-        <div class="pseudoCol-md-4"><a href="tel:+17043305475"><i class="fa fa-fax pseudoColor" aria-hidden="true"></i>704.330.5475</a> - fax</div>
-        <div class="pseudoCol-md-4"></div>
-    </div>
-</div>
-</div>
+
 
 
 
