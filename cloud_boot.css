@@ -59,7 +59,11 @@ dl.portlet a:hover {
 
 /* Cloud Login Button */
 #content .sign-in-cloud {
+<<<<<<< HEAD
   background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') rgb(1,119,80);
+=======
+  background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #017750;
+>>>>>>> origin/master
   background-position: 0px;
   background-repeat: no-repeat;
   background-size: 37px 20px;
@@ -72,7 +76,11 @@ dl.portlet a:hover {
 }
 
 #content .sign-in-cloud:hover {
+<<<<<<< HEAD
       background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') rgb(1,119,80);
+=======
+      background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') #05573C;
+>>>>>>> origin/master
       background-position: 0px;
       background-repeat: no-repeat;
       background-size: 37px 20px;
