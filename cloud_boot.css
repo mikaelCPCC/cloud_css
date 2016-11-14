@@ -57,6 +57,14 @@ dl.portlet a:hover {
   text-align: center;
 }
 
+.potletStaticText {
+  margin: 0 auto;
+  text-align: center;
+  width: 85%;
+  padding-top: 15px;
+
+}
+
 /* Cloud Login Button */
 #content .sign-in-cloud {
   background: url('https://www.cpcc.edu/its/images/cloud/cloud-login-button') rgb(1,119,80);
@@ -65,7 +73,7 @@ dl.portlet a:hover {
   background-size: 2.313em 1.250em;
   padding-left: 2.500em;
   margin: 0.125em;
-  color: #FFF;
+  color: #FFF !important;
   border-radius: 0.313em;
   border: 0.063em solid rgb(4, 10, 8);
   font-weight: bold;}
@@ -76,7 +84,7 @@ dl.portlet a:hover {
   background-repeat: no-repeat;
   background-size: 2.313em 1.250em;
   padding-left: 2.500em;
-  color: #fff;
+  color: #fff !important;
   border-radius: 0.313em;
   border: 0.063em solid rgb(4,10,8);
 }
