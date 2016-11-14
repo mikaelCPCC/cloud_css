@@ -83,20 +83,42 @@ dl.portlet a:hover {
 
 
 /* PSEUDO FOOTER STYLES */
-<style>
-.pseudoContainer {
-  width: 44.375em;
-  border-radius: 0.125em;
-}
-
-.pseudoColStyle {
-  border: 1px solid rgb(66,192,251);
-  background-color: rgba(238, 238, 238, 0.3);
-}
-
-.pseudoColor {
+.pseudoFootLinks a, .pseudoFootLinks p{
+  display: block;
   color: rgb(66,192,251);
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  text-decoration: none;
+  font-size: 1.000em;
+  padding-bottom: 0.313em;
+  text-shadow: rgb(255, 255, 255) 0.063em 0.063em 0.000em;
   padding-right: 0.188em;
 }
 
-</style>
+.pseudoFootLinks a:hover {
+  color: black;
+}
+
+#pseudoFooter{
+  background: rgb(241, 241, 241);
+  border-top: 0.063em solid rgb(222, 222, 222);
+  margin-top: -0.125em;
+  padding-top: 0.938em;
+  padding-bottom: 0.938em;
+}
+
+.pseudoFootHeader{
+  font-size: 1.125em;
+  color: rgb(63, 63, 63);
+  padding-bottom: 0.313em;
+  padding-left: 0.938em;
+  text-shadow: rgb(255, 255, 255) 0.063em 0.063em 0.000em;
+}
+  
+#pseudoFooter .container{
+  max-width: 68.750em;
+}
+
+.pseudoIconControl {
+  padding-right: 0.188em;
+}
