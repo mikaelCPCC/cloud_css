@@ -89,6 +89,7 @@ dl.portlet a:hover {
 
 
 /* PSEUDO FOOTER STYLES */
+
 .pseudoFootLinks a, .pseudoFootLinks p{
   display: block;
   color: rgb(66,192,251);
@@ -122,7 +123,7 @@ dl.portlet a:hover {
 }
   
 #pseudoFooter .container{
-  max-width: 68.750em;
+  max-width: 58.750em;
 }
 
 .pseudoIconControl {
